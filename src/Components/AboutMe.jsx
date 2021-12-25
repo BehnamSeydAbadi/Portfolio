@@ -1,10 +1,15 @@
 import React from "react";
+import Image from "./Common/Image";
 
 function AboutMe() {
   return (
-  <div className="bg-slate-500 w-24 sm:w-40 md:w-48 lg:w-64">
-      Behnam SeydAbadi
-  </div>);
+    <React.Fragment>
+      <Image
+        imageUrl = {"../Resources/userImage.jpg"}
+        width={340}
+        height={340}
+        alt={"XXX"} />
+    </React.Fragment>);
 }
 
 export default AboutMe;
