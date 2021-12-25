@@ -18,3 +18,4 @@ bin-release/
 # information for Eclipse / Flash Builder.
 node_modules
 git files.rar
+desktop.files.json
