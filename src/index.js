@@ -1,6 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
+
 import "./index.css";
+
 import AboutMe from "./Components/AboutMe";
 import reportWebVitals from "./reportWebVitals";
 
