@@ -1,12 +1,8 @@
 import React from "react";
 import "../../Styles/Image.css";
 
-function Image({ isCircle, imageUrl, width, height, alt }) {
+function Image({ imageTemplate, imageUrl, width, height, alt }) {
   console.log(imageUrl);
-
-  let imageTemplate;
-
-  if (isCircle) imageTemplate = "circle";
 
   return (
     <img
