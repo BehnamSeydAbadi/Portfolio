@@ -5,7 +5,7 @@ function AboutMe() {
   return (
     <React.Fragment>
       <Image
-        imageUrl = {"../Resources/userImage.jpg"}
+        imageUrl = {"/Images/userImage.svg"}
         width={340}
         height={340}
         alt={"XXX"} />
