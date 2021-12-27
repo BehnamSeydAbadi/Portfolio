@@ -2,8 +2,6 @@ import React from "react";
 import "../../Styles/Image.css";
 
 function Image({ imageTemplate, imageUrl, width, height, alt }) {
-  console.log(imageUrl);
-
   return (
     <img
       className={`${imageTemplate} border border--white`}
