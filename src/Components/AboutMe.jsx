@@ -7,13 +7,15 @@ function AboutMe({ Name, LastName, summary }) {
 
   const nameStyleClass = "text-5xl uppercase tracking-widest";
 
+  const imageWidth = 422;
+
   return (
     <div className="flex flex-col justify-center items-center">
       <Image
         imageTemplate={ImageTemplateEnum.CIRCLE}
         imageUrl={"/Images/userImage.svg"}
-        width={512}
-        height={512}
+        width={imageWidth}
+        height={imageWidth}
         alt={"XXX"}
       />
 
