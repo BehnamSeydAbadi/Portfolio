@@ -17,11 +17,12 @@ function AboutMe({ Name, LastName, summary }) {
         alt={"XXX"}
       />
 
-      <h1 className="mt-14">
+      <h1 className="mt-15">
         <span className={nameStyleClass}>{Name}</span>
+        <span> </span>
         <span className={`${nameStyleClass} font-bold`}>{LastName}</span>
       </h1>
-      <p className="mt-5">{summary}</p>
+      <p className="mt-5 w-128 text-center text-base">{summary}</p>
     </div >
   );
 }
