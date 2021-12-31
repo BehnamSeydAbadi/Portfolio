@@ -1,8 +1,12 @@
 import React from "react";
 import Image from "./Common/Image";
 import { ImageTemplateEnum } from "../Constants/ImageTemplateEnum.js";
+import "../Styles/AboutMe.css";
 
 function AboutMe({ Name, LastName, summary }) {
+
+  const nameStyleClass = "text-5xl uppercase tracking-widest";
+
   return (
     <div className="flex flex-col justify-center items-center">
       <Image
@@ -13,12 +17,12 @@ function AboutMe({ Name, LastName, summary }) {
         alt={"XXX"}
       />
 
-      <h1>
-        <span className="text-5xl uppercase tracking-widest">{Name}</span>
-        <span className="text-5xl uppercase tracking-widest font-bold">{LastName}</span>
+      <h1 className="mt-14">
+        <span className={nameStyleClass}>{Name}</span>
+        <span className={`${nameStyleClass} font-bold`}>{LastName}</span>
       </h1>
-      <p>{summary}</p>
-    </div>
+      <p className="mt-5">{summary}</p>
+    </div >
   );
 }
 
