@@ -1,10 +1,15 @@
 import React from "react";
-import "../../Styles/Image.css";
+import { ImageTemplateEnum } from "../../Constants/ImageTemplateEnum.js";
 
 function Image({ imageTemplate, imageUrl, width, height, alt }) {
+  let imageShapeClass;
+
+  if (imageTemplate == ImageTemplateEnum.CIRCLE)
+    imageShapeClass = "rounded-full";
+
   return (
     <img
-      className={`${imageTemplate} border border--white`}
+      className={`${imageShapeClass} border-8 border-white`}
       src={imageUrl}
       width={width}
       height={height}
