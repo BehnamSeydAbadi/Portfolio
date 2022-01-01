@@ -1,7 +1,6 @@
 import React from "react";
 import Image from "./Common/Image";
 import { ImageTemplateEnum } from "../Constants/ImageTemplateEnum.js";
-import "../Styles/AboutMe.css";
 
 function AboutMe({ Name, LastName, summary }) {
   const nameStyleClass = "text-5xl uppercase tracking-widest";
