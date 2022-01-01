@@ -1,10 +1,10 @@
 import React from "react";
-import { ImageTemplateEnum } from "../../Constants/ImageTemplateEnum.js";
+import { ImageShapeEnum } from "../../Constants/ImageShapeEnum.js";
 
 function Image({ imageTemplate, imageUrl, width, height, alt }) {
   let imageShapeClass;
 
-  if (imageTemplate == ImageTemplateEnum.CIRCLE)
+  if (imageTemplate == ImageShapeEnum.CIRCLE)
     imageShapeClass = "rounded-full";
 
   return (

@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "./Common/Image";
-import { ImageTemplateEnum } from "../Constants/ImageTemplateEnum.js";
+import { ImageShapeEnum, ImageTemplateEnum } from "../Constants/ImageShapeEnum.js";
 
 function AboutMe({ Name, LastName, summary }) {
   const nameStyleClass = "text-5xl uppercase tracking-widest";
@@ -16,7 +16,7 @@ function AboutMe({ Name, LastName, summary }) {
     <div className={`${alignmentClasses} ${gradientClasses}`}>
       <div className={marginTopClass}>
         <Image
-          imageTemplate={ImageTemplateEnum.CIRCLE}
+          imageTemplate={ImageShapeEnum.CIRCLE}
           imageUrl={"/Images/userImage.svg"}
           width={imageWidth}
           height={imageWidth}
