@@ -1,3 +1,12 @@
+:root {
+  --color-porcelain: #f2f2f2;
+}
+
 .bg-gradient-hardEdge {
-  background: linear-gradient(to bottom, #f2f2f2, #f2f2f2 50%, white 0);
+  background: linear-gradient(
+    to bottom,
+    var(--color-porcelain),
+    var(--color-porcelain) 50%,
+    white 0
+  );
 }
