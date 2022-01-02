@@ -6,13 +6,17 @@ import "../Styles/AboutMe.css";
 function AboutMe({ name, lastName, summary }) {
   const imageWidth = 422;
 
-  const centerAlignmentClasses = "flex flex-col justify-center items-center";
-  const sizeClasses = "h-[51rem]";
-  const gradientClasses = "bg-gradient-hardEdge";
+  const wrapperDivBorderClasses = "border-2 border-mercury";
+  const wrapperDivCenterAlignmentClasses = "flex flex-col justify-center items-center";
+  const wrapperDivSizeClasses = "h-[51rem]";
+  const wrapperDivGradientClasses = "bg-gradient-hardEdge";
 
   return (
     <div
-      className={`${centerAlignmentClasses} ${sizeClasses} ${gradientClasses}`}>
+      className={`
+      ${wrapperDivBorderClasses} ${wrapperDivCenterAlignmentClasses} 
+      ${wrapperDivSizeClasses} ${wrapperDivGradientClasses}`
+      }>
       <div className='mt-[-4rem]'>
         <Image
           imageTemplate={ImageShapeEnum.CIRCLE}

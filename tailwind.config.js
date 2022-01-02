@@ -11,6 +11,9 @@ module.exports = {
         'OpenSans':'Open Sans, sans-serif',
         'Montserrat':'Montserrat, sans-serif'
       },
+      colors:{
+        'mercury': '#E5E5E5'
+      }
     },
   },
   plugins: [],
