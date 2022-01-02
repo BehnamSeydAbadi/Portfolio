@@ -4,8 +4,6 @@ import { ImageShapeEnum } from "../Constants/ImageShapeEnum.js";
 import "../Styles/AboutMe.css";
 
 function AboutMe({ name, lastName, summary }) {
-  const textClasses = "mt-15 text-5xl font-Roboto tracking-wider uppercase";
-
   const imageWidth = 422;
 
   const centerAlignmentClasses = "flex flex-col justify-center items-center";
@@ -25,10 +23,12 @@ function AboutMe({ name, lastName, summary }) {
         />
       </div>
 
-      <text className={textClasses}>
+      <text className='mt-15 text-5xl font-Roboto tracking-wider uppercase'>
         {name} <b>{lastName}</b>
       </text>
-      <p className='mt-5 w-128 text-center text-base'>{summary}</p>
+      <p className='mt-5 w-128 text-base text-center font-OpenSans tracking-wide'>
+        {summary}
+      </p>
     </div>
   );
 }
