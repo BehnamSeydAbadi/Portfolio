@@ -27,9 +27,9 @@ function AboutMe({ name, lastName, summary }) {
         />
       </div>
 
-      <text className='mt-15 text-5xl font-Roboto tracking-wider uppercase'>
+      <div className='mt-15 text-5xl font-Roboto tracking-wider uppercase'>
         {name} <b>{lastName}</b>
-      </text>
+      </div>
       <p className='mt-5 w-128 text-base text-center font-OpenSans tracking-wide'>
         {summary}
       </p>
