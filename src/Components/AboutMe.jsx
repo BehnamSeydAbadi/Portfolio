@@ -9,13 +9,13 @@ function AboutMe({ name, lastName, summary }) {
   const wrapperDivCenterAlignmentClasses = "flex flex-col justify-center items-center";
   const wrapperDivSizeClasses = "h-[51rem]";
   const wrapperDivGradientClasses = "bg-gradient-hardEdge";
+  const wrapperDivButtomMarginClass = "mb-1";
 
   return (
     <div
       className={`
-      ${wrapperDivCenterAlignmentClasses} 
-      ${wrapperDivSizeClasses} ${wrapperDivGradientClasses}`
-      }>
+      ${wrapperDivCenterAlignmentClasses} ${wrapperDivSizeClasses} 
+      ${wrapperDivGradientClasses} ${wrapperDivButtomMarginClass}`}>
       <div className='mt-[-4rem]'>
         <Image
           imageTemplate={ImageShapeEnum.CIRCLE}
