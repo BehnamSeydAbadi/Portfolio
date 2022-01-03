@@ -4,6 +4,7 @@ import ReactDOM from "react-dom";
 import "./index.css";
 
 import AboutMe from "./Components/AboutMe";
+import Skills from "./Components/Skills";
 import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(
@@ -13,6 +14,7 @@ ReactDOM.render(
       lastName='LastName'
       summary='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere luctus mollis. Praesent malesuada nec est quis volutpat. Sed sagittis, mauris non rhoncus tincidunt, nisl nibh commodo mi, id consectetur libero nisi in ipsum.'
     />
+    <Skills />
   </React.StrictMode>,
   document.getElementById("root")
 );
