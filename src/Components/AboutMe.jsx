@@ -6,7 +6,6 @@ import "../Styles/AboutMe.css";
 function AboutMe({ name, lastName, summary }) {
   const imageWidth = 422;
 
-  const wrapperDivBorderClasses = "border-2 border-mercury";
   const wrapperDivCenterAlignmentClasses = "flex flex-col justify-center items-center";
   const wrapperDivSizeClasses = "h-[51rem]";
   const wrapperDivGradientClasses = "bg-gradient-hardEdge";
@@ -14,7 +13,7 @@ function AboutMe({ name, lastName, summary }) {
   return (
     <div
       className={`
-      ${wrapperDivBorderClasses} ${wrapperDivCenterAlignmentClasses} 
+      ${wrapperDivCenterAlignmentClasses} 
       ${wrapperDivSizeClasses} ${wrapperDivGradientClasses}`
       }>
       <div className='mt-[-4rem]'>
