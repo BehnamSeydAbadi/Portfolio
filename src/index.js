@@ -11,7 +11,7 @@ ReactDOM.render(
     <AboutMe
       name='Name'
       lastName='LastName'
-      summary='Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+      summary='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere luctus mollis. Praesent malesuada nec est quis volutpat. Sed sagittis, mauris non rhoncus tincidunt, nisl nibh commodo mi, id consectetur libero nisi in ipsum.'
     />
   </React.StrictMode>,
   document.getElementById("root")
