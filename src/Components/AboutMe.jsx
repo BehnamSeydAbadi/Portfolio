@@ -2,16 +2,14 @@ import React from "react";
 import "../Styles/AboutMe.css";
 
 function AboutMe({ name, lastName, summary }) {
-  const wrapperDivCenterAlignmentClasses = "flex flex-col justify-center items-center";
-  const wrapperDivSizeClasses = "h-[51rem]";
-  const wrapperDivGradientClasses = "bg-gradient-hardEdge-mobile sm:bg-gradient-hardEdge";
-  const wrapperDivButtomMarginClass = "mb-1";
 
   return (
     <div
       className={`
-      ${wrapperDivCenterAlignmentClasses} ${wrapperDivSizeClasses} 
-      ${wrapperDivGradientClasses} ${wrapperDivButtomMarginClass}`}>
+        flex flex-col justify-center items-center
+        h-[51rem]
+        bg-gradient-hardEdge-mobile sm:bg-gradient-hardEdge 
+        mb-1`}>
 
       <img
         className={`
