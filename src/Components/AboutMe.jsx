@@ -10,7 +10,7 @@ function AboutMe({ name, lastName, summary }) {
     <div
       className={`
         flex flex-col justify-center items-center
-        h-[51rem]
+        h-[47rem] sm:h-[51rem]
         bg-gradient-hardEdge-mobile sm:bg-gradient-hardEdge 
         mb-1`}>
 
@@ -25,10 +25,12 @@ function AboutMe({ name, lastName, summary }) {
         alt="User's photo"
       />
 
-      <div className='text-2xl mt-14 ms:mt-15 ms:text-5xl font-Roboto tracking-wider uppercase'>
+      <div className={`
+        text-2xl mt-14 sm:mt-15 sm:text-5xl
+        font-Roboto tracking-wider uppercase`}>
         {name} <b>{lastName}</b>
       </div>
-      <p className='mt-5 w-128 text-base text-center font-OpenSans tracking-wide'>
+      <p className='mt-5 w-80 sm:w-128 text-base text-center font-OpenSans tracking-wide'>
         {summary}
       </p>
     </div>
