@@ -11,9 +11,6 @@ module.exports = {
         'OpenSans':'Open Sans, sans-serif',
         'Montserrat':'Montserrat, sans-serif'
       }
-    },
-    screens: {
-      'sm': '425px',
     }
   },
   plugins: [],
