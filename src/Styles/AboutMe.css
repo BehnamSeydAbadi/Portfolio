@@ -10,3 +10,12 @@
     white 0
   );
 }
+
+.bg-gradient-hardEdge-mobile{
+  background: linear-gradient(
+    to bottom,
+    var(--color-porcelain),
+    var(--color-porcelain) 36%,
+    white 0
+  );
+}
