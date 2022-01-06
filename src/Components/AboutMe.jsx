@@ -3,6 +3,9 @@ import "../Styles/AboutMe.css";
 
 function AboutMe({ name, lastName, summary }) {
 
+  const imageMobileWidthAndHeight = "324px";
+  const imageWidthAndHeight = "422px";
+
   return (
     <div
       className={`
@@ -16,7 +19,8 @@ function AboutMe({ name, lastName, summary }) {
           mt-[-9rem] sm:mt-[-4rem] 
           rounded-full 
           border-8 border-white
-          w-[324px] h-[324px] sm:w-[422px] sm:h-[422px]`}
+          w-[${imageMobileWidthAndHeight}] h-[${imageMobileWidthAndHeight}] 
+          sm:w-[${imageWidthAndHeight}] sm:h-[${imageWidthAndHeight}]`}
         src="/Images/userImage.svg"
         alt="User's photo"
       />
