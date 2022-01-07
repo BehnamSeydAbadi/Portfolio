@@ -19,8 +19,7 @@ function AboutMe({ name, lastName, summary }) {
           mt-[-9rem] sm:mt-[-4rem] 
           rounded-full 
           border-8 border-white
-          w-[${imageMobileWidthAndHeight}] h-[${imageMobileWidthAndHeight}] 
-          sm:w-[${imageWidthAndHeight}] sm:h-[${imageWidthAndHeight}]`}
+          w-[324px] h-[324px] sm:w-[422px] sm:h-[422px]`}
         src="/Images/userImage.svg"
         alt="User's photo"
       />
