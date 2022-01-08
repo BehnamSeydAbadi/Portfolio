@@ -1,16 +1,23 @@
 import React from "react";
 
-function Skills({backEndSkills, frontEndSkills}) {
-  const titleClasses = "sm:mt-[6rem] text-center sm:text-7xl font-bold";
+function Skills({ backEndSkills, frontEndSkills }) {
+  const titleClasses =
+    "text-center font-bold text-5xl md:text-7xl md:mt-[6rem]";
+
+  const leftAndRightDivClasses = "flex-initial mt-10 md:w-1/2 md:mt-0";
 
   return (
-    <div className='flex bg-white sm:h-128'>
-      <div name='left' className='flex-initial w-1/2'>
+    <div
+      className={`
+      bg-white 
+        flex items-center flex-col h-[43rem]
+        md:flex-row md:items-start md:h-128`}>
+      <div name='left' className={leftAndRightDivClasses}>
         <div className={`${titleClasses} text-gray-400`}>Back-End</div>
         {GenerateSkillsList(backEndSkills)}
       </div>
 
-      <div name='right' className='flex-initial w-1/2'>
+      <div name='right' className={leftAndRightDivClasses}>
         <div className={`${titleClasses} text-orange-400`}>Front-End</div>
         {GenerateSkillsList(frontEndSkills)}
       </div>
