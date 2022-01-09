@@ -5,6 +5,7 @@ import "./index.css";
 
 import AboutMe from "./Components/AboutMe";
 import Skills from "./Components/Skills";
+import Samples from "./Components/Samples";
 import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(
@@ -18,6 +19,7 @@ ReactDOM.render(
       backEndSkills={["ASP.NET Core", "TDD", "DDD", "CQRS", "SQL", "NoSQL"]}
       frontEndSkills={["ReactJs", "TailwindCss", "HTML, CSS", "Js (ES6)"]}
     />
+    <Samples samplesShot={["", ""]} />
   </React.StrictMode>,
   document.getElementById("root")
 );
