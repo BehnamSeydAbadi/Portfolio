@@ -19,7 +19,19 @@ ReactDOM.render(
       backEndSkills={["ASP.NET Core", "TDD", "DDD", "CQRS", "SQL", "NoSQL"]}
       frontEndSkills={["ReactJs", "TailwindCss", "HTML, CSS", "Js (ES6)"]}
     />
-    <Samples samplesShot={["", ""]} />
+    <Samples
+      samplesShot={[
+        { path: "/Images/comingSoon.jpg", alt: "New samples coming soon...", href:"#" },
+        { path: "/Images/comingSoon.jpg", alt: "New samples coming soon...", href:"#" },
+        { path: "/Images/comingSoon.jpg", alt: "New samples coming soon...", href:"#" },
+        { path: "/Images/comingSoon.jpg", alt: "New samples coming soon...", href:"#" },
+        { path: "/Images/comingSoon.jpg", alt: "New samples coming soon...", href:"#" },
+        { path: "/Images/comingSoon.jpg", alt: "New samples coming soon...", href:"#" },
+        { path: "/Images/comingSoon.jpg", alt: "New samples coming soon...", href:"#" },
+        { path: "/Images/comingSoon.jpg", alt: "New samples coming soon...", href:"#" },
+        { path: "/Images/comingSoon.jpg", alt: "New samples coming soon...", href:"#" },
+      ]}
+    />
   </React.StrictMode>,
   document.getElementById("root")
 );
