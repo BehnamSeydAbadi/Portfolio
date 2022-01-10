@@ -18,7 +18,7 @@ function Skills({ backEndSkills, frontEndSkills }) {
       </div>
 
       <div name='right' className={leftAndRightDivClasses}>
-        <div className={`${titleClasses} text-orange-400`}>Front-End</div>
+        <div className={`${titleClasses} text-cadmiumOrange`}>Front-End</div>
         {GenerateSkillsList(frontEndSkills)}
       </div>
     </div>
