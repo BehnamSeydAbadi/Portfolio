@@ -11,9 +11,9 @@ module.exports = {
         OpenSans: "Open Sans, sans-serif",
         Montserrat: "Montserrat, sans-serif",
       },
-    },
-    colors: {
-      cadmiumOrange: "#fb923c",
+      colors: {
+        cadmiumOrange: "#fb923c",
+      },
     },
   },
   plugins: [],
