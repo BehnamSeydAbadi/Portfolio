@@ -2,20 +2,28 @@ import React from "react";
 
 function Samples({ samplesShot }) {
   return (
-    <div className='bg-cadmiumOrange grid grid-cols-none md:grid-cols-2 lg:grid-cols-3'>
-      {samplesShot.map((sampleShot) => (
-        <a
-          className='relative flex justify-center items-center'
-          href={sampleShot.href}>
-          <img
-            className='transition duration-500 hover:opacity-0'
-            src={sampleShot.path}
-            alt={sampleShot.alt}
-          />
+    <div>
+      <div className='bg-cadmiumOrange grid grid-cols-none md:grid-cols-2 lg:grid-cols-3'>
+        {samplesShot.map((sampleShot) => (
+          <a
+            className='relative flex justify-center items-center'
+            href={sampleShot.href}>
+            <img
+              className='transition duration-500 hover:opacity-0'
+              src={sampleShot.path}
+              alt={sampleShot.alt}
+            />
 
-          <h1 className='absolute text-white'>{sampleShot.alt}</h1>
-        </a>
-      ))}
+            <h1 className='absolute text-white'>{sampleShot.alt}</h1>
+          </a>
+        ))}
+      </div>
+
+      <div className=' flex flex-col justify-center items-center'>
+        <button className='mt-14 px-6 py-3 bg-cadmiumOrange text-white'>
+          VIEW MORE
+        </button>
+      </div>
     </div>
   );
 }
