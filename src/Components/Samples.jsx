@@ -20,7 +20,7 @@ function Samples({ samplesShot }) {
       </div>
 
       <div className=' flex flex-col justify-center items-center'>
-        <button className='mt-14 px-6 py-3 bg-cadmiumOrange text-white'>
+        <button className='mt-14 px-6 py-3 bg-cadmiumOrange text-white font-bold tracking-widest'>
           VIEW MORE
         </button>
       </div>
