@@ -2,10 +2,6 @@ import React from "react";
 import "../Styles/AboutMe.css";
 
 function AboutMe({ name, lastName, summary }) {
-
-  const imageMobileWidthAndHeight = "324px";
-  const imageWidthAndHeight = "422px";
-
   return (
     <div
       className={`
@@ -13,18 +9,18 @@ function AboutMe({ name, lastName, summary }) {
         h-[47rem] sm:h-[51rem]
         bg-gradient-hardEdge-mobile sm:bg-gradient-hardEdge 
         mb-1`}>
-
       <img
         className={`
           mt-[-9rem] sm:mt-[-4rem] 
           rounded-full 
           border-8 border-white
           w-[324px] h-[324px] sm:w-[422px] sm:h-[422px]`}
-        src="/Images/userImage.svg"
+        src='/Images/userImage.svg'
         alt="User's photo"
       />
 
-      <div className={`
+      <div
+        className={`
         text-2xl mt-14 sm:mt-15 sm:text-5xl
         font-Roboto tracking-wider uppercase`}>
         {name} <b>{lastName}</b>
