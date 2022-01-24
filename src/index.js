@@ -5,6 +5,7 @@ import "./index.css";
 
 import AboutMe from "./Components/AboutMe";
 import Skills from "./Components/Skills";
+import ContactMe from "./Components/ContactMe";
 import Samples from "./Components/Samples";
 import reportWebVitals from "./reportWebVitals";
 
@@ -33,6 +34,10 @@ ReactDOM.render(
       ]}
       viewMoreSamplesLink="####"
     />
+    <ContactMe 
+    instagramUrl="#"
+    linkedInUrl="#"
+    githubUrl="#"/>
   </React.StrictMode>,
   document.getElementById("root")
 );
