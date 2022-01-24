@@ -9,12 +9,12 @@ function Samples({ samplesShot }) {
             className='relative flex justify-center items-center'
             href={sampleShot.href}>
             <img
-              className='transition duration-500 hover:opacity-0'
+              className='transition duration-500 '
               src={sampleShot.path}
               alt={sampleShot.alt}
             />
 
-            <h1 className='absolute text-white'>{sampleShot.alt}</h1>
+            <h1 className='absolute bg-cadmiumOrange w-full h-full text-white opacity-0 hover:opacity-100 duration-500  flex justify-center items-center'>{sampleShot.alt}</h1>
           </a>
         ))}
       </div>
