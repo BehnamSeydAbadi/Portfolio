@@ -1,6 +1,6 @@
 import React from "react";
 
-function Samples({ samplesShot }) {
+function Samples({ samplesShot, viewMoreSamplesLink }) {
   return (
     <div>
       <div className='bg-cadmiumOrange grid grid-cols-none md:grid-cols-2 lg:grid-cols-3'>
@@ -24,7 +24,7 @@ function Samples({ samplesShot }) {
 
       <div className=' flex flex-col justify-center items-center'>
         <button className='mt-14 px-6 py-3 bg-cadmiumOrange text-white font-bold tracking-widest'>
-          VIEW MORE
+          <a href={viewMoreSamplesLink}>VIEW MORE</a>
         </button>
       </div>
     </div>
