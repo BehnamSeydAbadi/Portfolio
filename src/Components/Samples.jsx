@@ -23,7 +23,7 @@ function Samples({ samplesShot, viewMoreSamplesLink }) {
       </div>
 
       <div className=' flex flex-col justify-center items-center'>
-        <button className='mt-14 px-6 py-3 bg-cadmiumOrange text-white font-bold tracking-widest'>
+        <button className='my-14 px-6 py-3 bg-cadmiumOrange text-white font-bold tracking-widest'>
           <a href={viewMoreSamplesLink}>VIEW MORE</a>
         </button>
       </div>
