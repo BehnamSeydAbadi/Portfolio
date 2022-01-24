@@ -2,7 +2,7 @@ import React from "react";
 
 function Samples({ samplesShot, viewMoreSamplesLink }) {
   return (
-    <div>
+    <div className="bg-white">
       <div className='bg-cadmiumOrange grid grid-cols-none md:grid-cols-2 lg:grid-cols-3'>
         {samplesShot.map((sampleShot) => (
           <a className='relative flex' href={sampleShot.href}>
