@@ -14,6 +14,9 @@ module.exports = {
       colors: {
         cadmiumOrange: "#fb923c",
       },
+      backgroundImage: {
+        'contactMe': "url('../public/Images/w4-min.jpg')",
+      }
     },
   },
   plugins: [],
