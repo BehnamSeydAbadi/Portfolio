@@ -31,6 +31,7 @@ ReactDOM.render(
         { path: "/Images/comingSoon.jpg", alt: "New samples coming soon...", href:"#" },
         { path: "/Images/comingSoon.jpg", alt: "New samples coming soon...", href:"#" },
       ]}
+      viewMoreSamplesLink="####"
     />
   </React.StrictMode>,
   document.getElementById("root")
