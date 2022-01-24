@@ -11,6 +11,7 @@ function Samples({ samplesShot }) {
             <h1
               className='
               absolute 
+              text-4xl uppercase
               flex justify-center items-center 
               bg-cadmiumOrange text-white 
               w-full h-full 
