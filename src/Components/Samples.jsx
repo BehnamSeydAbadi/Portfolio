@@ -5,16 +5,18 @@ function Samples({ samplesShot }) {
     <div>
       <div className='bg-cadmiumOrange grid grid-cols-none md:grid-cols-2 lg:grid-cols-3'>
         {samplesShot.map((sampleShot) => (
-          <a
-            className='relative flex justify-center items-center'
-            href={sampleShot.href}>
-            <img
-              className='transition duration-500 '
-              src={sampleShot.path}
-              alt={sampleShot.alt}
-            />
+          <a className='relative flex' href={sampleShot.href}>
+            <img src={sampleShot.path} alt={sampleShot.alt} />
 
-            <h1 className='absolute bg-cadmiumOrange w-full h-full text-white opacity-0 hover:opacity-100 duration-500  flex justify-center items-center'>{sampleShot.alt}</h1>
+            <h1
+              className='
+              absolute 
+              flex justify-center items-center 
+              bg-cadmiumOrange text-white 
+              w-full h-full 
+              opacity-0 duration-500 hover:opacity-100'>
+              {sampleShot.alt}
+            </h1>
           </a>
         ))}
       </div>
