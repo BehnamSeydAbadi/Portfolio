@@ -1,10 +1,13 @@
 import React from "react";
 
 function ContactMe({ instagramUrl, linkedInUrl, githubUrl }) {
+
+  const iconClassnames = "w-12 h-12 bg-white";
+
   return (
     <div
       className='
-      bg-contactMe
+      bg-contactMe bg-center
       w-full h-80 sm:h-96
       flex justify-center'>
       <div className="mt-24">
@@ -14,14 +17,14 @@ function ContactMe({ instagramUrl, linkedInUrl, githubUrl }) {
         </div>
 
         <div className="flex justify-center mt-8">
-          <a href="#">
-            <img className="w-12 h-12" src="/Images/instagram-svgrepo-com.svg" alt="Instagram profile" />
+          <a href={instagramUrl}>
+            <img className={iconClassnames} src="/Images/instagram-svgrepo-com.svg" alt="Instagram profile" />
           </a>
-          <a href="#">
-            <img className="w-12 h-12 mx-8" src="/Images/linkedin-svgrepo-com.svg" alt="LinkedIn profile" />
+          <a href={linkedInUrl}>
+            <img className={`${iconClassnames} mx-8`} src="/Images/linkedin-svgrepo-com.svg" alt="LinkedIn profile" />
           </a>
-          <a href="#">
-            <img className="w-12 h-12" src="/Images/github-svgrepo-com.svg" alt="Github profile" />
+          <a href={githubUrl}>
+            <img className={iconClassnames} src="/Images/github-svgrepo-com.svg" alt="Github profile" />
           </a>
         </div>
       </div>
